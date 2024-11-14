@@ -10,7 +10,7 @@
   
 </template>
 
-<style>
+<style scoped>
   .homePage{
     display: flex;
     justify-content: space-around;

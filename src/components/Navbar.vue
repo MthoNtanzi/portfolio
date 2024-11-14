@@ -1,6 +1,6 @@
 <template>
      <nav class="navbar">
-        <a href="#" class="navbar-brand">Mthobisi Ntanzi</a>
+        <router-link to="/" class="navbar-brand">Mthobisi Ntanzi</router-link>
         <span class="menu-toggle" @click="toggleMenu">☰</span>
         <ul class="navbar-links">
             <li><router-link to="/about">About Me</router-link></li>
