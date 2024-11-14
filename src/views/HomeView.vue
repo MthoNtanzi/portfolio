@@ -22,6 +22,7 @@
   .intro{
     display: flex;
     flex-direction: column;
+    gap: 1.4rem;
   }
 
   img{

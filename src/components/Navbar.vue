@@ -3,10 +3,11 @@
         <a href="#" class="navbar-brand">Mthobisi Ntanzi</a>
         <span class="menu-toggle" @click="toggleMenu">☰</span>
         <ul class="navbar-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#shop">Shop</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><router-link to="/about">About Me</router-link></li>
+            <li><router-link to="/education">Education</router-link></li>
+            <li><router-link to="/experience">Experience</router-link></li>
+            <li><router-link to="/project">Project</router-link></li>
+            <li><router-link to="/contact">Contact</router-link></li>
         </ul>
     </nav>
 </template>

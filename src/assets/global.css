@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: ease-in 3s;
 }
 
 body{
