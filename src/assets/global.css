@@ -9,8 +9,11 @@ body{
     background: rgb(0,0,0);
     background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(48,48,48,1) 20%);
     color: white;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 .main{
     padding: 2rem 5rem;
+    min-height: 70vh;
 }
