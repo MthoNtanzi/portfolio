@@ -16,4 +16,8 @@ body{
 .main{
     padding: 2rem 5rem;
     min-height: 70vh;
+    /* background-image: url("../assets/img/bgImg.png");
+    background-repeat: no-repeat;
+    background-position: 80%;
+    background-size: 4% 80%; */
 }

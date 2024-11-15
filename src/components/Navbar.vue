@@ -5,7 +5,7 @@
         <ul class="navbar-links">
             <li><router-link to="/about">About Me</router-link></li>
             <li><router-link to="/education">Education</router-link></li>
-            <li><router-link to="/experience">Experience</router-link></li>
+            <li><router-link to="/experience">Games</router-link></li>
             <li><router-link to="/project">Project</router-link></li>
             <li><router-link to="/contact">Contact</router-link></li>
         </ul>
@@ -17,8 +17,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0.8rem 0;
     padding:1.8rem 3rem;
     color: #fff;
+    /* background: rgb(0,0,0);
+    background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(48,48,48,1) 20%); */
 }
 
 .navbar-brand {

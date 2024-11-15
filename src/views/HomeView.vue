@@ -1,7 +1,7 @@
 <template>
   <div class="main homePage">
     <div class="intro">
-      <button>Portfolio</button>
+      <button><router-link class="knowMe" to="/about">Know Me</router-link></button>
       <h1>Mthobisi<br/> Ntanzi</h1>
       <h2>Software Developer</h2>
     </div>
@@ -52,6 +52,10 @@
   h2{
     font-size: 1.5rem;
     letter-spacing: 0.5rem;
+  }
+  .knowMe{
+    text-decoration: none;
+    color: #000;
   }
 
 </style>
