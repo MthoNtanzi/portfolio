@@ -3,11 +3,45 @@
         <img src="../assets/img/phone.png" alt="picture of a telephone">
         <div>
             <h1>CONTACT ME</h1>
-            <ul>
-                <li>
-                    <img src="" alt="">
-                </li>
-            </ul>
+            <!-- Contact Info is a grid -->
+            <div class="contact-info">
+                <!-- Email -->
+                <p class="sites">Email</p>
+                <p><a target="_blank" href="mailto:mthontanzi99@gmail.com">mthontanzi99@gmail.com</a></p>
+                <!-- LinkedIN -->
+                <p class="sites">LinkedIn</p>
+                <p><a target="_blank" href="https://www.linkedin.com/in/mthobisi-ntanzi-17234820b/">Mthobisi Ntanzi</a></p>
+                <!-- Upwork -->
+                <p class="sites">Upwork</p>
+                <p><a href="https://www.upwork.com/freelancers/~011a5816fb5ac94684" target="_blank" rel="noopener noreferrer">Mthobisi N.</a></p>
+            </div>
         </div>
     </div>
 </template>
+
+<style scoped>
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-info{
+        display: grid;
+        grid-template-columns: repeat(2, 15rem);
+    }
+
+    .main img{
+        height: auto;
+        width: 15rem;
+        align-self: end;
+        margin-right: 10rem;
+    }
+
+    .sites{
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+</style>
