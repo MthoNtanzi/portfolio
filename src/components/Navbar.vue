@@ -5,8 +5,8 @@
         <ul class="navbar-links">
             <li><router-link to="/about">About Me</router-link></li>
             <li><router-link to="/education">Education</router-link></li>
-            <li><router-link to="/experience">Games</router-link></li>
-            <li><router-link to="/project">Project</router-link></li>
+            <li><router-link to="/games">Games</router-link></li>
+            <li><router-link to="/projects">Projects</router-link></li>
             <li><router-link to="/contact">Contact</router-link></li>
         </ul>
     </nav>
@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0.8rem 0;
+    margin: 1.8rem 0;
     padding:1.8rem 3rem;
     color: #fff;
     /* background: rgb(0,0,0);
