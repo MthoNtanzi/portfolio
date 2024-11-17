@@ -1,7 +1,7 @@
 <template>
     <div class="main">
-        <h1>PROJECTS</h1>
-        <div class="myProjects">
+        <h1 id="projects-title">PROJECTS</h1>
+        <div class="myProjects" aria-labelledby="projects-title">
             <div class="project-template">
                 <img src="../assets/img/projects.jpg" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sequi voluptatem eveniet esse deleniti, nisi rem laboriosam. Aspernatur dolore neque illo aliquam natus, ut necessitatibus rerum officiis, odio magnam laboriosam.</p>
@@ -16,7 +16,7 @@
             </div>
             <div class="project-template">
                 <img src="../assets/img/projects.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sequi voluptatem eveniet esse deleniti, nisi rem laboriosam. Aspernatur dolore neque illo aliquam natus, ut necessitatibus rerum officiis, odio magnam laboriosam.</p>
+                <p>Lorem ipsum dolor sit amiti, nisi rem laboriosam. Aspernatur dolore neque illo aliquam natus, ut necessitatibus rerum officiis, odio magnam laboriosam.</p>
                 <div class="myButtons">
                     <button>
                         <a href="/" target="_blank" rel="noopener noreferrer">View Project</a>
@@ -47,12 +47,15 @@
 <style scoped>
     .main{
         display: grid;
-        grid-template-columns: min-content auto; /* Adjust column sizes */
+        grid-template-columns: min-content auto;
+        grid-template-areas: 
+        "header content"; /* Default layout */
         align-items: center;
-        /* overflow: hidden; */
+        margin: auto;
     }
 
     h1{
+        grid-area: header; 
         writing-mode:vertical-lr;
         transform: rotate(180deg);
         height: fit-content;
@@ -66,13 +69,15 @@
     .myProjects{
         display: flex;
         flex-wrap: wrap;
-        width: 100%;
-        justify-content: space-around;
+        gap: 2rem;
+        /* width: 100%; */
+        justify-content: space-between;
+        align-items: stretch;
     }
 
     .project-template {
         box-sizing: border-box;
-        width: 18rem;
+        width: 18em;
         height: 35rem;
         margin: 2px;
         /* background-color: white; */
@@ -88,6 +93,7 @@
     .project-template p{
         padding: 1rem;
         text-align: justify;
+        height: 180px;
     }
 
     .myButtons{
@@ -117,4 +123,34 @@
         text-decoration: none;
         color: #000;
     }
+
+      /* Responsive styling */
+  @media (max-width: 900px) {
+    .main{
+        display: inline-block;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        align-items: center;
+        grid-template-areas: 
+            "header"
+            "content"; 
+        gap: 3rem;
+        width: 100%;
+        margin: -8rem 0;
+    }
+
+    h1{
+        writing-mode: vertical-lr;
+        transform: rotate(-90deg);
+        text-align: center;
+        letter-spacing: 1.2rem;
+        margin: 0;
+        height: auto;
+    }
+    .myProjects{
+        flex-direction: column;
+        align-content: center;
+    }
+   
+  }
 </style>
