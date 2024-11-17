@@ -16,7 +16,6 @@
     .main{
         display: flex;
         justify-content: space-around;
-        min-height: 65vh;
         align-items:flex-end;
     }
 

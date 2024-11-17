@@ -1,7 +1,7 @@
 <template>
   <div class="main homePage">
     <div class="intro">
-      <router-link class="knowMe" to="/about"><button>Know Me</button></router-link>
+      <router-link class="knowMe" to="/about"><button>Get To Know Me</button></router-link>
       <h1>Mthobisi<br/> Ntanzi</h1>
       <h2>Software Developer</h2>
     </div>
