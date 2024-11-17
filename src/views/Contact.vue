@@ -1,6 +1,6 @@
 <template>
     <div class="main">
-        <img src="../assets/img/phone.png" alt="picture of a telephone">
+        <img src="../assets/img/phone.jpg" alt="picture of a telephone">
         <div>
             <h1>CONTACT ME</h1>
             <!-- Contact Info is a grid -->
@@ -31,9 +31,10 @@
 
     .main img{
         height: auto;
-        width: 15rem;
+        width: 24rem;
         align-self: end;
         margin-right: 10rem;
+        border-radius: 30rem;
     }
 
     .sites{
