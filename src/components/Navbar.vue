@@ -1,67 +1,66 @@
 <template>
-     <nav class="navbar">
-        <router-link to="/" class="navbar-brand">Mthobisi Ntanzi</router-link>
-        <span class="menu-toggle" @click="toggleMenu">☰</span>
-        <ul class="navbar-links">
-            <li><router-link to="/about">About Me</router-link></li>
-            <li><router-link to="/education">Education</router-link></li>
-            <li><router-link to="/games">Games</router-link></li>
-            <li><router-link to="/projects">Projects</router-link></li>
-            <li><router-link to="/contact">Contact</router-link></li>
-        </ul>
+    <nav class="navbar" @click="handleOutsideClick"> <!-- Added click event to handle outside clicks -->
+      <router-link to="/" class="navbar-brand">Mthobisi Ntanzi</router-link>
+      <span class="menu-toggle" @click="toggleMenu($event)">☰</span> <!-- Pass the event to toggleMenu -->
+      <ul class="navbar-links">
+        <li @click="closeMenu"><router-link to="/about">About Me</router-link></li> <!-- Added closeMenu on click -->
+        <li @click="closeMenu"><router-link to="/education">Education</router-link></li> <!-- Added closeMenu on click -->
+        <li @click="closeMenu"><router-link to="/games">Games</router-link></li> <!-- Added closeMenu on click -->
+        <li @click="closeMenu"><router-link to="/projects">Projects</router-link></li> <!-- Added closeMenu on click -->
+        <li @click="closeMenu"><router-link to="/contact">Contact</router-link></li> <!-- Added closeMenu on click -->
+      </ul>
     </nav>
-</template>
-
-<style scoped>
+  </template>
+  
+  <style scoped>
     .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1.8rem 0;
-    padding:1.8rem 3rem;
-    color: #fff;
-    /* background: rgb(0,0,0);
-    background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(48,48,48,1) 20%); */
-}
-
-.navbar-brand {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #fff;
-    text-decoration: none;
-}
-
-.navbar-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.navbar-links li {
-    display: inline;
-}
-
-.navbar-links a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.3em;
-}
-
-.navbar-links a:hover {
-    text-decoration: underline;
-    text-underline-offset: 1rem;
-}
-
-/* Mobile Menu */
-.menu-toggle {
-    display: none;
-    font-size: 1.5em;
-    cursor: pointer;
-}
-
-/* Responsive styling */
-@media (max-width: 800px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 1.8rem 0;
+      padding: 1.8rem 3rem;
+      color: #fff;
+      z-index: 100;
+    }
+  
+    .navbar-brand {
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #fff;
+      text-decoration: none;
+    }
+  
     .navbar-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+  
+    .navbar-links li {
+      display: inline;
+    }
+  
+    .navbar-links a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.3em;
+    }
+  
+    .navbar-links a:hover {
+      text-decoration: underline;
+      text-underline-offset: 1rem;
+    }
+  
+    /* Mobile Menu */
+    .menu-toggle {
+      display: none;
+      font-size: 1.5em;
+      cursor: pointer;
+    }
+  
+    /* Responsive styling */
+    @media (max-width: 800px) {
+      .navbar-links {
         display: none;
         flex-direction: column;
         gap: 15px;
@@ -71,26 +70,39 @@
         background-color: #333;
         padding: 15px;
         border-radius: 8px;
-    }
-
-    .navbar-links.show {
+      }
+  
+      .navbar-links.show {
         display: flex;
-    }
-
-    .menu-toggle {
+      }
+  
+      .menu-toggle {
         display: block;
         color: #fff;
+      }
     }
-}
-</style>
-
-<script>
+  </style>
+  
+  <script>
     export default {
-    methods: {
-        toggleMenu() {
-            document.querySelector('.navbar-links').classList.toggle('show');
+      methods: {
+        toggleMenu(event) {
+          event.stopPropagation(); // Prevent the click event from triggering on the navbar
+          document.querySelector('.navbar-links').classList.toggle('show');
+        },
+        closeMenu() {
+          document.querySelector('.navbar-links').classList.remove('show'); // Close the menu when a menu item is clicked
+        },
+        handleOutsideClick(event) {
+          // Prevent closing when clicking on the menu toggle icon
+          if (event.target.closest('.menu-toggle')) return;
+  
+          const navbar = document.querySelector('.navbar');
+          if (!navbar.contains(event.target)) { // If click is outside the navbar, close the menu
+            this.closeMenu();
+          }
         }
-        }    
+      }
     }
-      
-</script>
+  </script>
+  

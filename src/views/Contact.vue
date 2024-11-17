@@ -30,8 +30,12 @@
     }
 
     .main img{
+
+        width: 100%;
+        max-width: 22rem;
+        border-radius: 12rem;
         height: auto;
-        width: 24rem;
+       
         align-self: end;
         margin-right: 10rem;
         border-radius: 30rem;
@@ -45,4 +49,18 @@
         color: white;
         text-decoration: none;
     }
+
+    /* Responsive styling */
+  @media (max-width: 800px) {
+    .main{
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+    }
+
+    .main img{
+        margin-right: 0;
+    }
+   
+  }
 </style>

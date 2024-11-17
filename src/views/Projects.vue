@@ -136,7 +136,6 @@
             "content"; 
         gap: 3rem;
         width: 100%;
-        margin: -8rem 0;
     }
 
     h1{
@@ -144,7 +143,7 @@
         transform: rotate(-90deg);
         text-align: center;
         letter-spacing: 1.2rem;
-        margin: 0;
+        margin: -10rem 0 -5rem 0;
         height: auto;
     }
     .myProjects{
