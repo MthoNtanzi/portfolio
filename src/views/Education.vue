@@ -28,17 +28,12 @@
     }
 
     .main img{
-        max-height: 13rem;
+        width: 100%;
+        max-width: 22rem;
         border-radius: 12rem;
+        align-self: center;
     }
 
-    /* h1{
-        font-size: 3rem;
-    }
-
-    h3{
-        font-size: 1.5rem;
-    } */
 
     ul{
         margin: 0;
@@ -53,4 +48,14 @@
     li *{
         margin: 0.4rem 0;
     }
+
+      /* Responsive styling */
+  @media (max-width: 800px) {
+    .main{
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+    }
+   
+  }
 </style>
