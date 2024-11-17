@@ -60,7 +60,7 @@
 }
 
 /* Responsive styling */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .navbar-links {
         display: none;
         flex-direction: column;

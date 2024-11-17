@@ -1,9 +1,9 @@
 <template>
   <div class="main homePage">
     <div class="intro">
-      <router-link class="knowMe" to="/about"><button>Get To Know Me</button></router-link>
       <h1>Mthobisi<br/> Ntanzi</h1>
       <h2>Software Developer</h2>
+      <router-link class="knowMe" to="/about"><button>Get To Know Me</button></router-link>
     </div>
     <img src="../assets/img/profile.jpg" alt="Mthobisi Ntanzi Profile image">
   </div>
@@ -58,4 +58,18 @@
     color: #000;
   }
 
+  /* Responsive styling */
+  @media (max-width: 800px) {
+    .homePage{
+      flex-direction: column;
+    }
+    .intro{
+      align-self: flex-start;
+    }
+
+    img{
+     margin-left: auto;
+     max-width: 60%;
+    }
+  }
 </style>
