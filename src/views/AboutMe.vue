@@ -17,14 +17,27 @@
         display: flex;
         justify-content: space-around;
         align-items:flex-end;
+        gap: 3rem;
     }
 
     .main img{
-        max-height: 13rem;
+        width: 100%;
+        max-width: 22rem;
         border-radius: 12rem;
     }
 
     .about-me{
-        max-width: 30rem;
+        max-width: 28rem;
+        text-align: justify;
     }
+
+    /* Responsive styling */
+  @media (max-width: 800px) {
+    .main{
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+    }
+   
+  }
 </style>
