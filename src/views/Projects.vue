@@ -143,7 +143,7 @@
         transform: rotate(-90deg);
         text-align: center;
         letter-spacing: 0.5rem;
-        margin: -8rem 0 -5rem 0;
+        /* margin: -8rem 0 -5rem 0; */
         height: auto;
     }
     .myProjects{
