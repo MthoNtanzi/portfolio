@@ -69,11 +69,11 @@
 
     img{
      margin-left: auto;
-     max-width: 60%;
+     max-width: 65%;
     }
 
     h1{
-    font-size: 1.5rem;
+    font-size: 2rem;
     }
 
     h2{
@@ -82,12 +82,12 @@
     }
 
     button{
-      width: 12rem;
-      padding: 0.5rem;
+      width: 10rem;
+      padding: 0.3rem;
       text-transform: uppercase;
       font-weight: 700;
       letter-spacing: 0.2rem;
-      font-size: medium;
+      font-size:x-small;
     }
   }
 </style>
