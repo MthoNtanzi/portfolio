@@ -68,7 +68,7 @@
     }
 
     img{
-     margin-left: auto;
+     /* margin-left: auto; */
      max-width: 65%;
     }
 
