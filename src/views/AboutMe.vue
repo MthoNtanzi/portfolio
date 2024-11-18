@@ -38,6 +38,14 @@
       align-items: center;
       gap: 3rem;
     }
+
+    .main img{
+        width: 80%;
+        max-width: 22rem;
+        border-radius: 12rem;
+    }
+
+    
    
   }
 </style>

@@ -11,6 +11,9 @@
                 <!-- LinkedIN -->
                 <p class="sites">LinkedIn</p>
                 <p><a target="_blank" href="https://www.linkedin.com/in/mthobisi-ntanzi-17234820b/">Mthobisi Ntanzi</a></p>
+                <!-- Github -->
+                <p class="sites">Github</p>
+                <p><a target="_blank" href="https://www.github.com/MthoNtanzi/">MthoNtanzi</a></p>
                 <!-- Upwork -->
                 <p class="sites">Upwork</p>
                 <p><a href="https://www.upwork.com/freelancers/~011a5816fb5ac94684" target="_blank" rel="noopener noreferrer">Mthobisi N.</a></p>
@@ -59,7 +62,8 @@
     }
 
     .main img{
-        margin-right: 0;
+        width: 80%;
+        margin:auto;
     }
 
     .contact-info{
@@ -70,7 +74,9 @@
 
     .contact-info :nth-child(1), 
     .contact-info :nth-child(3), 
-    .contact-info :nth-child(5){
+    .contact-info :nth-child(5),
+    .contact-info :nth-child(7)
+    {
         margin-bottom: 0;
     }
    
