@@ -34,6 +34,7 @@
       list-style: none;
       display: flex;
       gap: 20px;
+      z-index: 100;
     }
   
     .navbar-links li {
@@ -65,11 +66,12 @@
         flex-direction: column;
         gap: 15px;
         position: absolute;
-        top: 60px;
+        top: 80px;
         right: 30px;
         background-color: #333;
         padding: 15px;
         border-radius: 8px;
+        font-size: 0.7rem;
       }
   
       .navbar-links.show {
@@ -79,6 +81,10 @@
       .menu-toggle {
         display: block;
         color: #fff;
+      }
+
+      .navbar-brand{
+        font-size: 0.9rem;
       }
     }
   </style>

@@ -71,5 +71,23 @@
      margin-left: auto;
      max-width: 60%;
     }
+
+    h1{
+    font-size: 1.5rem;
+    }
+
+    h2{
+      font-size: 1rem;
+      letter-spacing: 0.2rem;
+    }
+
+    button{
+      width: 12rem;
+      padding: 0.5rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.2rem;
+      font-size: medium;
+    }
   }
 </style>

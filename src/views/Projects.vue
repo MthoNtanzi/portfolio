@@ -142,13 +142,22 @@
         writing-mode: vertical-lr;
         transform: rotate(-90deg);
         text-align: center;
-        letter-spacing: 1.2rem;
-        margin: -10rem 0 -5rem 0;
+        letter-spacing: 0.5rem;
+        margin: -8rem 0 -5rem 0;
         height: auto;
     }
     .myProjects{
         flex-direction: column;
         align-content: center;
+    }
+    button{
+        margin-bottom: 0.1rem;
+        padding: 0.8rem 1rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 0.4rem;
+        font-size: small;
+        text-align: center;
     }
    
   }

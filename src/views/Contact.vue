@@ -61,6 +61,18 @@
     .main img{
         margin-right: 0;
     }
+
+    .contact-info{
+        display: flex;
+        flex-direction: column; /* Stacking the items in column direction */
+        gap: 0.4rem;
+    }
+
+    .contact-info :nth-child(1), 
+    .contact-info :nth-child(3), 
+    .contact-info :nth-child(5){
+        margin-bottom: 0;
+    }
    
   }
 </style>
