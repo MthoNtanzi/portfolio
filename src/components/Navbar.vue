@@ -5,7 +5,7 @@
       <ul class="navbar-links">
         <li @click="closeMenu"><router-link to="/about">About Me</router-link></li> <!-- Added closeMenu on click -->
         <li @click="closeMenu"><router-link to="/education">Education</router-link></li> <!-- Added closeMenu on click -->
-        <li @click="closeMenu"><router-link to="/games">Games</router-link></li> <!-- Added closeMenu on click -->
+        <!-- <li @click="closeMenu"><router-link to="/games">Games</router-link></li> Added closeMenu on click -->
         <li @click="closeMenu"><router-link to="/projects">Projects</router-link></li> <!-- Added closeMenu on click -->
         <li @click="closeMenu"><router-link to="/contact">Contact</router-link></li> <!-- Added closeMenu on click -->
       </ul>

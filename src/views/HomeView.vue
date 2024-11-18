@@ -5,7 +5,7 @@
       <h2>Software Developer</h2>
       <router-link class="knowMe" to="/about"><button>Get To Know Me</button></router-link>
     </div>
-    <img src="../assets/img/profile.jpg" alt="Mthobisi Ntanzi Profile image">
+    <img src="../assets/img/mtho_profile.png" alt="Mthobisi Ntanzi Profile image">
   </div>
   
 </template>

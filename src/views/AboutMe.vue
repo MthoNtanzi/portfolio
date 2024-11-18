@@ -4,8 +4,10 @@
         <div class="about-me">
             <h1>ABOUT ME</h1>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusamus totam inventore corrupti iste quas in tempore facere perspiciatis ratione?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae mollitia magnam a voluptas, reiciendis voluptatem harum. Earum, nostrum ipsam. Iste vitae cumque nobis iusto. Error qui in quam sequi eum.
+                I am a software developer, who uses Python and JavaScript alongside frameworks such as Vue.js and Flutter. I usually prefer solving real-world problems that will have a positve impact. 
+            </p>
+            <p>
+                I am detail oriented, have discipline when it comes to my work and I thrive on consistency. I enjoy working on myself, and growing my skill, and having fun while doing it. Fun fact: I support Manchester united ;)
             </p>
         </div>
     </div>
