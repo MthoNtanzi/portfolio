@@ -7,10 +7,10 @@
                 <p>Guess The Game. This project is a mini-game I made to pass the time. I made it using VueJs. At the moment it is a desktop game but I plan on making it responsive soon.</p>
                 <div class="myButtons">
                     <button>
-                        <a href="https://guess-the-number-game-omega-six.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
+                        <a href="https://guess-the-number-game-omega-six.vercel.app/" target="_blank">View Project</a>
                     </button>
                     <button>
-                        <a href="https://github.com/MthoNtanzi/GuessTheNumberGame" target="_blank" rel="noopener noreferrer">View Repo</a>
+                        <a href="https://github.com/MthoNtanzi/GuessTheNumberGame" target="_blank">View Repo</a>
                     </button>
                 </div>
             </div>
@@ -19,10 +19,10 @@
                 <p>Age Calculator. This is a project I got from <a class="links" href="https://frontendmentor.io/">Frontend Mentor</a>. I was given a picture as reference to work on. I took that image and brought the project to life using reactJs</p>
                 <div class="myButtons">
                     <button>
-                        <a href="https://age-calculator-app-main-snowy.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
+                        <a href="https://age-calculator-app-main-snowy.vercel.app/" target="_blank">View Project</a>
                     </button>
                     <button>
-                        <a href="https://github.com/MthoNtanzi/age-calculator-app-main" target="_blank" rel="noopener noreferrer">View Repo</a>
+                        <a href="https://github.com/MthoNtanzi/age-calculator-app-main" target="_blank">View Repo</a>
                     </button>
                 </div>
             </div>
@@ -31,10 +31,10 @@
                 <p>This project uses the Advice Slip API to generate random quotes of advice. I got it from frontend mentor. It was a fun project to do and the advice given is quite enjoyable.</p>
                 <div class="myButtons">
                     <button>
-                        <a href="https://advice-generator-app-five-amber.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
+                        <a href="https://advice-generator-app-five-amber.vercel.app/" target="_blank">View Project</a>
                     </button>
                     <button>
-                        <a href="https://github.com/MthoNtanzi/advice-generator-app" target="_blank" rel="noopener noreferrer">View Repo</a>
+                        <a href="https://github.com/MthoNtanzi/advice-generator-app" target="_blank">View Repo</a>
                     </button>
                 </div>
             </div>
