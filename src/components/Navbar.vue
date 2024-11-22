@@ -1,6 +1,6 @@
 <template>
     <nav class="navbar" @click="handleOutsideClick"> <!-- Added click event to handle outside clicks -->
-      <router-link to="/" class="navbar-brand"><img src="../assets/img/Mthobisi_Ntanzi.png" alt=""></router-link>
+      <router-link to="/" class="navbar-brand"><img src="/Mthobisi_Ntanzi.png" alt=""></router-link>
       <span class="menu-toggle" @click="toggleMenu($event)">☰</span> <!-- Pass the event to toggleMenu -->
       <ul class="navbar-links">
         <li @click="closeMenu"><router-link to="/about">About Me</router-link></li> <!-- Added closeMenu on click -->

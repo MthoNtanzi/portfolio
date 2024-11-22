@@ -3,38 +3,38 @@
         <h1 id="projects-title">PROJECTS</h1>
         <div class="myProjects" aria-labelledby="projects-title">
             <div class="project-template">
-                <img src="../assets/img/projects.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sequi voluptatem eveniet esse deleniti, nisi rem laboriosam. Aspernatur dolore neque illo aliquam natus, ut necessitatibus rerum officiis, odio magnam laboriosam.</p>
+                <img src="../assets/img/guessTheGame.png" alt="">
+                <p>Guess The Game. This project is a mini-game I made to pass the time. I made it using VueJs. At the moment it is a desktop game but I plan on making it responsive soon.</p>
                 <div class="myButtons">
                     <button>
-                        <a href="/" target="_blank" rel="noopener noreferrer">View Project</a>
+                        <a href="https://guess-the-number-game-omega-six.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
                     </button>
                     <button>
-                        <a href="/" target="_blank" rel="noopener noreferrer">View Repo</a>
+                        <a href="https://github.com/MthoNtanzi/GuessTheNumberGame" target="_blank" rel="noopener noreferrer">View Repo</a>
                     </button>
                 </div>
             </div>
             <div class="project-template">
-                <img src="../assets/img/projects.jpg" alt="">
-                <p>Lorem ipsum dolor sit amiti, nisi rem laboriosam. Aspernatur dolore neque illo aliquam natus, ut necessitatibus rerum officiis, odio magnam laboriosam.</p>
+                <img src="../assets/img/age_calc.png" alt="">
+                <p>Age Calculator. This is a project I got from <a class="links" href="https://frontendmentor.io/">Frontend Mentor</a>. I was given a picture as reference to work on. I took that image and brought the project to life using reactJs</p>
                 <div class="myButtons">
                     <button>
-                        <a href="/" target="_blank" rel="noopener noreferrer">View Project</a>
+                        <a href="https://age-calculator-app-main-snowy.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
                     </button>
                     <button>
-                        <a href="/" target="_blank" rel="noopener noreferrer">View Repo</a>
+                        <a href="https://github.com/MthoNtanzi/age-calculator-app-main" target="_blank" rel="noopener noreferrer">View Repo</a>
                     </button>
                 </div>
             </div>
             <div class="project-template">
-                <img src="../assets/img/projects.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sequi voluptatem eveniet esse deleniti, nisi rem laboriosam. Aspernatur dolore neque illo aliquam natus, ut necessitatibus rerum officiis, odio magnam laboriosam.</p>
+                <img src="../assets/img/advice_gen.png" alt="">
+                <p>This project uses the Advice Slip API to generate random quotes of advice. I got it from frontend mentor. It was a fun project to do and the advice given is quite enjoyable.</p>
                 <div class="myButtons">
                     <button>
-                        <a href="/" target="_blank" rel="noopener noreferrer">View Project</a>
+                        <a href="https://advice-generator-app-five-amber.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
                     </button>
                     <button>
-                        <a href="/" target="_blank" rel="noopener noreferrer">View Repo</a>
+                        <a href="https://github.com/MthoNtanzi/advice-generator-app" target="_blank" rel="noopener noreferrer">View Repo</a>
                     </button>
                 </div>
             </div>
@@ -122,6 +122,10 @@
         
         text-decoration: none;
         color: #000;
+    }
+
+    .links{
+        color: white;
     }
 
       /* Responsive styling */

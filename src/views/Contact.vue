@@ -3,6 +3,7 @@
         <img src="../assets/img/phone.jpg" alt="picture of a telephone">
         <div>
             <h1>CONTACT ME</h1>
+            <h2>Click on the name to view the respective profiles</h2>
             <!-- Contact Info is a grid -->
             <div class="contact-info">
                 <!-- Email -->
@@ -14,6 +15,9 @@
                 <!-- Github -->
                 <p class="sites">Github</p>
                 <p><a target="_blank" href="https://www.github.com/MthoNtanzi/">MthoNtanzi</a></p>
+                <!-- Frontend mentor -->
+                <p class="sites">Frontend Mentor</p>
+                <p><a target="_blank" href="https://www.frontendmentor.io/profile/MthoNtanzi">MthoNtanzi</a></p>
                 <!-- Upwork -->
                 <p class="sites">Upwork</p>
                 <p><a href="https://www.upwork.com/freelancers/~011a5816fb5ac94684" target="_blank" rel="noopener noreferrer">Mthobisi N.</a></p>
@@ -47,10 +51,19 @@
     .sites{
         font-weight: 700;
         font-size: 1.5rem;
+        justify-content: center;
     }
     a{
         color: white;
         text-decoration: none;
+    }
+    .contact-info :nth-child(2), 
+    .contact-info :nth-child(4), 
+    .contact-info :nth-child(6),
+    .contact-info :nth-child(8),
+    .contact-info :nth-child(10)
+    {
+        padding-top: 0.9rem;
     }
 
     /* Responsive styling */
@@ -75,7 +88,8 @@
     .contact-info :nth-child(1), 
     .contact-info :nth-child(3), 
     .contact-info :nth-child(5),
-    .contact-info :nth-child(7)
+    .contact-info :nth-child(7),
+    .contact-info :nth-child(9)
     {
         margin-bottom: 0;
     }
