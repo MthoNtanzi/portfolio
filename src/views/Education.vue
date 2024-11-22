@@ -6,7 +6,7 @@
                 <li>
                     <h2>2021</h2>
                     <h2>IT Varsity</h2>
-                    <p>Diploma in Systems Development</p>
+                    <p>Certificate in Systems Development</p>
                 </li>
                 <li>
                     <h2>2021</h2>
