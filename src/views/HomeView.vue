@@ -2,7 +2,7 @@
   <div class="main homePage">
     <div class="intro">
       <h1>Mthobisi<br/> Ntanzi</h1>
-      <h2>Software Developer</h2>
+      <h2>Web Developer</h2>
       <router-link class="knowMe" to="/about"><button>Get To Know Me</button></router-link>
     </div>
     <img src="../assets/img/mtho_profile.png" alt="Mthobisi Ntanzi Profile image">
