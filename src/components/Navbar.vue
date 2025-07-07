@@ -1,13 +1,13 @@
 <template>
     <nav class="navbar" @click="handleOutsideClick"> <!-- Added click event to handle outside clicks -->
-      <router-link to="/" class="navbar-brand"><img src="/Mthobisi_Ntanzi.png" alt=""></router-link>
+      <a href="#" class="navbar-brand"><img src="/Mthobisi_Ntanzi.png" alt=""></a>
       <span class="menu-toggle" @click="toggleMenu($event)">☰</span> <!-- Pass the event to toggleMenu -->
       <ul class="navbar-links">
-        <li @click="closeMenu"><router-link to="/about">About Me</router-link></li> <!-- Added closeMenu on click -->
-        <li @click="closeMenu"><router-link to="/education">Education</router-link></li> <!-- Added closeMenu on click -->
-        <!-- <li @click="closeMenu"><router-link to="/games">Games</router-link></li> Added closeMenu on click -->
-        <li @click="closeMenu"><router-link to="/projects">Projects</router-link></li> <!-- Added closeMenu on click -->
-        <li @click="closeMenu"><router-link to="/contact">Contact</router-link></li> <!-- Added closeMenu on click -->
+        <li @click="closeMenu"><a href="#about">About Me</a></li> <!-- Added closeMenu on click -->
+        <li @click="closeMenu"><a href="#education">Education</a></li> <!-- Added closeMenu on click -->
+        <!-- <li @click="closeMenu"><a href="/games">Games</a></li> Added closeMenu on click -->
+        <li @click="closeMenu"><a href="#projects">Projects</a></li> <!-- Added closeMenu on click -->
+        <li @click="closeMenu"><a href="#contact">Contact</a></li> <!-- Added closeMenu on click -->
       </ul>
     </nav>
   </template>

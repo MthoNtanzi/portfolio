@@ -3,7 +3,7 @@
     <div class="intro">
       <h1>Mthobisi<br/> Ntanzi</h1>
       <h2>Web Developer</h2>
-      <router-link class="knowMe" to="/about"><button>Get To Know Me</button></router-link>
+      <a class="knowMe" href="#about"><button>Get To Know Me</button></a>
     </div>
     <img src="../assets/img/mtho_profile.png" alt="Mthobisi Ntanzi Profile image">
   </div>
