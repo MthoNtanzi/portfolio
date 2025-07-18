@@ -72,6 +72,7 @@
       flex-direction: column;
       align-items: center;
       gap: 3rem;
+      padding-block: 50px;
     }
 
     .main img{

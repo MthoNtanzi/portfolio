@@ -140,6 +140,7 @@
             "content"; 
         gap: 3rem;
         width: 100%;
+        padding-block: 50px;
     }
 
     h1{

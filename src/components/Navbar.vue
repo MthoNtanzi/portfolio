@@ -31,7 +31,7 @@
     }
 
     .navbar-brand img{
-      width: 2.5rem;
+      width: 3rem;
     }
   
     .navbar-links {
