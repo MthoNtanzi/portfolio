@@ -63,7 +63,7 @@
     .svgImg{
         width: 120px;
         height: 120px;
-        padding-inline: 50px;
+        padding-inline: 30px;
     }
 
     .main{
