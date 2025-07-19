@@ -3,8 +3,20 @@
         <h1 id="projects-title">PROJECTS</h1>
         <div class="myProjects" aria-labelledby="projects-title">
             <div class="project-template">
-                <img src="../assets/img/guessTheGame.png" alt="">
-                <p>Guess The Game. This project is a mini-game I made to pass the time. I made it using VueJs. At the moment it is a desktop game but I plan on making it responsive soon.</p>
+                <img src="../assets/img/mike_s_hotel.PNG" alt="Mike's hotel">
+                <p><strong>Mike's hotel</strong> is a full stack project I made from scratch. From building thr API's to integrating them into my project. Users can book and get their reference via email, explore the site below!</p>
+                <div class="myButtons">
+                    <button>
+                        <a href="https://mikes-hotel-revised.vercel.app/" target="_blank">View Project</a>
+                    </button>
+                    <button>
+                        <a href="https://github.com/MthoNtanzi/GuessTheNumberGame" target="_blank">View Repo</a>
+                    </button>
+                </div>
+            </div>
+            <div class="project-template">
+                <img src="../assets/img/guessTheGame.png" alt="Guess The Game">
+                <p><strong>Guess The Game.</strong> This project is a mini-game I made to pass the time. I made it using VueJs. At the moment it is a desktop game but I plan on making it responsive soon.</p>
                 <div class="myButtons">
                     <button>
                         <a href="https://guess-the-number-game-omega-six.vercel.app/" target="_blank">View Project</a>
@@ -15,8 +27,8 @@
                 </div>
             </div>
             <div class="project-template">
-                <img src="../assets/img/age_calc.png" alt="">
-                <p>Age Calculator. This is a project I got from <a class="links" href="https://frontendmentor.io/">Frontend Mentor</a>. I was given a picture as reference to work on. I took that image and brought the project to life using reactJs</p>
+                <img src="../assets/img/age_calc.png" alt="Age Calculator">
+                <p><strong>Age Calculator.</strong> This is a project I got from <a class="links" href="https://frontendmentor.io/">Frontend Mentor</a>. I was given a picture as reference to work on. I took that image and brought the project to life using reactJs</p>
                 <div class="myButtons">
                     <button>
                         <a href="https://age-calculator-app-main-snowy.vercel.app/" target="_blank">View Project</a>
@@ -27,7 +39,7 @@
                 </div>
             </div>
             <div class="project-template">
-                <img src="../assets/img/advice_gen.png" alt="">
+                <img src="../assets/img/advice_gen.png" alt="Advice generator">
                 <p>This project uses the Advice Slip API to generate random quotes of advice. I got it from frontend mentor. It was a fun project to do and the advice given is quite enjoyable.</p>
                 <div class="myButtons">
                     <button>
