@@ -38,6 +38,7 @@
                     </button>
                 </div>
             </div>
+            
             <div class="project-template">
                 <img src="../assets/img/advice_gen.png" alt="Advice generator">
                 <p>This project uses the Advice Slip API to generate random quotes of advice. I got it from frontend mentor. It was a fun project to do and the advice given is quite enjoyable.</p>
