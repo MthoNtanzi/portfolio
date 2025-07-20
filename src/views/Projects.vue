@@ -4,7 +4,7 @@
         <div class="myProjects" aria-labelledby="projects-title">
             <div class="project-template">
                 <img src="../assets/img/mike_s_hotel.png" alt="Mike's hotel">
-                <p><strong>Mike's hotel</strong> is a full stack project I made from scratch. From building thr API's to integrating them into my project. Users can book and get their reference via email, explore the site below!</p>
+                <p><strong>Mike's hotel</strong> is a full stack project I made from scratch. From building the API's to integrating them into my project. Users can book and get their reference via email, explore the site below!</p>
                 <div class="myButtons">
                     <button>
                         <a href="https://mikes-hotel-revised.vercel.app/" target="_blank">View Project</a>
