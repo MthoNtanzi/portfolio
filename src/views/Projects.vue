@@ -3,14 +3,14 @@
         <h1 id="projects-title">PROJECTS</h1>
         <div class="myProjects" aria-labelledby="projects-title">
             <div class="project-template">
-                <img src="../assets/img/mike_s_hotel.PNG" alt="Mike's hotel">
+                <img src="../assets/img/mike_s_hotel.png" alt="Mike's hotel">
                 <p><strong>Mike's hotel</strong> is a full stack project I made from scratch. From building thr API's to integrating them into my project. Users can book and get their reference via email, explore the site below!</p>
                 <div class="myButtons">
                     <button>
                         <a href="https://mikes-hotel-revised.vercel.app/" target="_blank">View Project</a>
                     </button>
                     <button>
-                        <a href="https://github.com/MthoNtanzi/GuessTheNumberGame" target="_blank">View Repo</a>
+                        <a href="https://github.com/MthoNtanzi/mikes-hotel-revised" target="_blank">View Repo</a>
                     </button>
                 </div>
             </div>
