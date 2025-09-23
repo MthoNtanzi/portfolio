@@ -4,10 +4,10 @@
         <div class="about-me">
             <h1>ABOUT ME</h1>
             <p>
-                I am a software developer, who uses Python and JavaScript alongside frameworks such as Vue.js and Flutter. I usually prefer solving real-world problems that will have a positve impact. 
+                I am a software developer, who uses reactJs, alongside other frameworks such as Vue.js and Flutter. I usually prefer solving real-world problems and helping clients reach their full digital potential.
             </p>
             <p>
-                I am detail oriented, have discipline when it comes to my work and I thrive on consistency. I enjoy working on myself, and growing my skill, and having fun while doing it.
+                I love the blend of design and speed, and that is how I approach building websites and web applications My passion for precision and performance drives how I build web applications.
             </p>
         </div>
     </div>
