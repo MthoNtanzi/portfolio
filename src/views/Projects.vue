@@ -4,7 +4,7 @@
         <div class="myProjects" aria-labelledby="projects-title">
             <div class="project-template">
                 <img src="../assets/img/mike_s_hotel.png" alt="Mike's hotel">
-                <p><strong>Mike's hotel</strong> is a full stack project I made from scratch. From building the API's to integrating them into my project. Users can book and get their reference via email, explore the site below!</p>
+                <p><strong>Mike's hotel:</strong> This is a full stack project I made from scratch. From building the API's to integrating them into my project. Users can book and get their reference via email, explore the site below!</p>
                 <div class="myButtons">
                     <button>
                         <a href="https://mikes-hotel-revised.vercel.app/" target="_blank">View Project</a>
@@ -15,8 +15,32 @@
                 </div>
             </div>
             <div class="project-template">
-                <img src="../assets/img/guessTheGame.png" alt="Guess The Game">
-                <p><strong>Guess The Game.</strong> This project is a mini-game I made to pass the time. I made it using VueJs. At the moment it is a desktop game but I plan on making it responsive soon.</p>
+                <img src="../assets/img/weManagementGroup.png" alt="WeManagementGroup">
+                <p><strong>WeManagementGroup:</strong> The site was made for a client in California, USA who manages commercial real estate. The website is hosted on Hostinger and while making the project we used github to manage features.</p>
+                <div class="myButtons">
+                    <button>
+                        <a href="https://wemanagementgroup.com/" target="_blank">View Project</a>
+                    </button>
+                    <button disabled>
+                        View Repo
+                    </button>
+                </div>
+            </div>
+            <div class="project-template">
+                <img src="../assets/img/eCommerceProductPage.png" alt="Sneakers Store">
+                <p><strong>Sneakers Store:</strong> This is a frontendmentor.io project I built using React. This is a fully responsive e-commerce product page. The project showcases a sneaker with their details and allows users to add them to a cart.</p>
+                <div class="myButtons">
+                    <button>
+                        <a href="https://ecommerce-product-page-main-two-silk.vercel.app/" target="_blank">View Project</a>
+                    </button>
+                    <button>
+                        <a href="https://github.com/MthoNtanzi/Front-End-Mentor/tree/main/ecommerce-product-page-main" target="_blank">View Repo</a>
+                    </button>
+                </div>
+            </div>
+            <div class="project-template">
+                <img src="../assets/img/guessTheGame.png" alt="Guess The Number">
+                <p><strong>Guess The Number:</strong> This project is a mini-game I made to pass the time. I made it using VueJs. This is a desktop game.</p>
                 <div class="myButtons">
                     <button>
                         <a href="https://guess-the-number-game-omega-six.vercel.app/" target="_blank">View Project</a>
@@ -28,7 +52,7 @@
             </div>
             <div class="project-template">
                 <img src="../assets/img/age_calc.png" alt="Age Calculator">
-                <p><strong>Age Calculator.</strong> This is a project I got from <a class="links" href="https://frontendmentor.io/">Frontend Mentor</a>. I was given a picture as reference to work on. I took that image and brought the project to life using reactJs</p>
+                <p><strong>Age Calculator:</strong> This is a project I got from <a class="links" href="https://frontendmentor.io/">Frontend Mentor</a>. I was given a picture as reference to work on. I took that image and brought the project to life using reactJs</p>
                 <div class="myButtons">
                     <button>
                         <a href="https://age-calculator-app-main-snowy.vercel.app/" target="_blank">View Project</a>
@@ -41,7 +65,7 @@
             
             <div class="project-template">
                 <img src="../assets/img/advice_gen.png" alt="Advice generator">
-                <p>This project uses the Advice Slip API to generate random quotes of advice. I got it from frontend mentor. It was a fun project to do and the advice given is quite enjoyable.</p>
+                <p><strong>Advice Generator:</strong> This project uses the Advice Slip API to generate random quotes of advice. I got it from frontend mentor. It was a fun project to do and the advice given is quite enjoyable.</p>
                 <div class="myButtons">
                     <button>
                         <a href="https://advice-generator-app-five-amber.vercel.app/" target="_blank">View Project</a>
