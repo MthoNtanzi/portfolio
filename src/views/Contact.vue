@@ -7,20 +7,13 @@
             <!-- Contact Info is a grid -->
             <div class="contact-info">
                 <!-- Email -->
-                <p class="sites">Email</p>
-                <p><a target="_blank" href="mailto:mthontanzi99@gmail.com">mthontanzi99@gmail.com</a></p>
+                <p class="sites"><a target="_blank" href="mailto:mthontanzi99@gmail.com">Email</a></p>
                 <!-- LinkedIN -->
-                <p class="sites">LinkedIn</p>
-                <p><a target="_blank" href="https://www.linkedin.com/in/mthobisi-ntanzi-17234820b/">Mthobisi Ntanzi</a></p>
+                <p class="sites"><a target="_blank" href="https://www.linkedin.com/in/mthobisi-ntanzi-17234820b/">LinkedIn</a></p>
                 <!-- Github -->
-                <p class="sites">Github</p>
-                <p><a target="_blank" href="https://www.github.com/MthoNtanzi/">MthoNtanzi</a></p>
+                <p class="sites"><a target="_blank" href="https://www.github.com/MthoNtanzi/">Github</a></p>
                 <!-- Frontend mentor -->
-                <p class="sites">Frontend Mentor</p>
-                <p><a target="_blank" href="https://www.frontendmentor.io/profile/MthoNtanzi">MthoNtanzi</a></p>
-                <!-- Upwork -->
-                <p class="sites">Upwork</p>
-                <p><a href="https://www.upwork.com/freelancers/~011a5816fb5ac94684" target="_blank" rel="noopener noreferrer">Mthobisi N.</a></p>
+                <p class="sites"><a target="_blank" href="https://www.frontendmentor.io/profile/MthoNtanzi">Frontend Mentor</a></p>
             </div>
         </div>
     </div>
@@ -57,11 +50,10 @@
         color: white;
         text-decoration: none;
     }
+    .contact-info :nth-child(1), 
     .contact-info :nth-child(2), 
-    .contact-info :nth-child(4), 
-    .contact-info :nth-child(6),
-    .contact-info :nth-child(8),
-    .contact-info :nth-child(10)
+    .contact-info :nth-child(3),
+    .contact-info :nth-child(4)
     {
         padding-top: 0.9rem;
     }
@@ -87,13 +79,13 @@
     }
 
     .contact-info :nth-child(1), 
-    .contact-info :nth-child(3), 
-    .contact-info :nth-child(5),
-    .contact-info :nth-child(7),
-    .contact-info :nth-child(9)
+    .contact-info :nth-child(2), 
+    .contact-info :nth-child(3),
+    .contact-info :nth-child(7)
     {
         margin-bottom: 0;
     }
    
   }
+
 </style>
