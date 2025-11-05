@@ -25,8 +25,8 @@
         flex-direction: column;
     }
     .contact-info{
-        display: grid;
-        grid-template-columns: repeat(2, 15rem);
+        display: flex;
+        gap: 140px;
     }
 
     .main img{
@@ -89,3 +89,4 @@
   }
 
 </style>
+
