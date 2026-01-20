@@ -243,7 +243,7 @@ export default function Portfolio() {
       {activeSection === 'projects' && (
         <section className="section projects-section">
           <div className="section-container-wide">
-            <h2 className="section-title">Featured Projects</h2>
+            <h2 className="section-title" id='test'>Featured Projects</h2>
             <div className="projects-grid">
               {projects.map((project, index) => (
                 <div key={index} className="project-card">
