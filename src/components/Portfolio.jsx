@@ -176,10 +176,10 @@ export default function Portfolio() {
               </button> */}
             </div>
             <div className="social-links">
-                <a href="#" className="social-link"><Github size={24} /></a>
-                <a href="#" className="social-link"><Linkedin size={24} /></a>
+                <a href="https://www.github.com/MthoNtanzi/" className="social-link"><Github size={24} /></a>
+                <a href="https://www.linkedin.com/in/mthobisi-ntanzi-17234820b/" className="social-link"><Linkedin size={24} /></a>
                 {/* <a href="#" className="social-link"><Youtube size={24} /></a> */}
-                <a href="#" className="social-link"><Mail size={24} /></a>
+                <a href="mailto:mthontanzi99@gmail.com" className="social-link"><Mail size={24} /></a>
             </div>
           </div>
         </section>
