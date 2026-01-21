@@ -75,7 +75,7 @@ export default function Portfolio() {
       role: 'Web Developer',
       company: 'Talent Match Africa',
       period: '2025 - Present',
-      description: 'Developed and maintained responsive, cross-browser websites and web systems using React, Bootstrap, and WordPress, collaborating with data scientists and backend developers to integrate APIs and visualise data, while leading new-talent onboarding and delivering mobile and desktop-friendly LMS solutions.'
+      description: 'Developed and maintained responsive, cross-browser websites and web systems using React, Bootstrap, and WordPress, collaborating with data scientists and backend developers to integrate APIs and visualise data, while delivering mobile and desktop-friendly solutions.'
     },
     {
       role: 'Research and Development',
@@ -162,7 +162,7 @@ export default function Portfolio() {
                 </div>
             </div>
             <h1 className="hero-title">Mthobisi Ntanzi</h1>
-            <p className="hero-subtitle">Full Stack Developer & Creative Problem Solver</p>
+            <p className="hero-subtitle">Software Developer & Creative Problem Solver</p>
             <p className="hero-description">
               Crafting elegant solutions to complex problems with modern web technologies.
               Passionate about building user-centric applications that make a difference.
@@ -192,7 +192,7 @@ export default function Portfolio() {
             <h2 className="section-title">About Me</h2>
             <div className="card">
               <p className="about-text">
-                I'm a passionate full-stack developer with expertise in building modern web applications.
+                I'm a passionate full-stack developer with expertise in building modern web applications and systems.
                 With a strong foundation in both frontend and backend technologies, I create seamless
                 digital experiences that combine beautiful design with robust functionality.
               </p>
