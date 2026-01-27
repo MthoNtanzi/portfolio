@@ -35,6 +35,13 @@ export default function Portfolio() {
       repo: 'https://github.com/MthoNtanzi/mikes-hotel-revised'
     },
     {
+      "title": "Recipe Site",
+      "description": "A React frontend project that fetches recipes from a public API, allowing users to explore dishes, view ingredients, follow cooking steps, and navigate between recipes. Focused on dynamic data fetching, routing, loading and error states, and reusable scalable components.",
+      "tags": ["React", "JavaScript", "CSS Modules", "REST API", "Responsive Design"],
+      "link": "https://recipe-site-red.vercel.app/",
+      "repo": "https://github.com/MthoNtanzi/recipe-site"
+    },
+    {
       title: 'WeManagementGroup',
       description: 'Client website for a California commercial real estate manager, hosted on Hostinger with GitHub collaboration.',
         tags: ['WordPress', 'PHP', 'Elementor', 'Yoast SEO', 'Boostrap'],
