@@ -169,7 +169,7 @@ export default function Portfolio() {
                 </div>
             </div>
             <h1 className="hero-title">Mthobisi Ntanzi</h1>
-            <p className="hero-subtitle">Software Developer & Creative Problem Solver</p>
+            <p className="hero-subtitle">Web Developer & Creative Problem Solver</p>
             <p className="hero-description">
               Crafting elegant solutions to complex problems with modern web technologies.
               Passionate about building user-centric applications that make a difference.
