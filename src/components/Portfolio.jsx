@@ -28,6 +28,13 @@ export default function Portfolio() {
 
   const projects = [
     {
+      "title": "Entertainment App",
+      "description": "A responsive entertainment web app built with vanilla JavaScript, HTML, and CSS. Users can browse movies and TV series, view trending content, and bookmark their favourites.",
+      "tags": ["JavaScript", "CSS", "Single Page App, "Responsive Design"],
+      "link": "https://entertianment-app.vercel.app/",
+      "repo": "https://github.com/MthoNtanzi/Entertianment-app"
+    },
+    {
       title: 'Mike\'s hotel',
       description: 'A full-stack booking platform with custom APIs, email confirmations, and seamless user integration.',
       tags: ['React', 'Node.js', 'PostgreSQL', 'Bootstrap', 'REST API'],
