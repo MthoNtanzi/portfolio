@@ -30,7 +30,7 @@ export default function Portfolio() {
     {
       "title": "Entertainment App",
       "description": "A responsive entertainment web app built with vanilla JavaScript, HTML, and CSS. Users can browse movies and TV series, view trending content, and bookmark their favourites.",
-      "tags": ["JavaScript", "CSS", "Single Page App, "Responsive Design"],
+      "tags": ["JavaScript", "CSS", "Single Page App", "Responsive Design"],
       "link": "https://entertianment-app.vercel.app/",
       "repo": "https://github.com/MthoNtanzi/Entertianment-app"
     },
